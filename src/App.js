@@ -1,16 +1,13 @@
 import React from 'react';
 
-import ReactLogo from './components/ReactLogo';
-import './App.css';
+import DefaultLayout from './containers/DefaultLayout';
+
+import './scss/style.scss';
 
 const App = () => {
   return (
     <>
-      <div className="App">
-        <div className="App-body">
-          <ReactLogo />
-        </div>
-      </div>
+      <DefaultLayout />
     </>
   );
 };
