@@ -1,0 +1,11 @@
+{
+    "files.associations": {
+        "*.js": "javascriptreact"
+    },
+    "javascript.preferences.quoteStyle": "single",
+    "typescript.preferences.quoteStyle": "single",
+    "prettier.singleQuote": true,
+    "prettier.jsxSingleQuote": false,
+    "prettier.semi": true,
+    "editor.tabSize": 2,
+}
