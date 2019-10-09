@@ -19,5 +19,7 @@ code {
     monospace;
 }
 
+@import './variable';
+@import './default-layout';
 @import './particles';
 @import './navigation';

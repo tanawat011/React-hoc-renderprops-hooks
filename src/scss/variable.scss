@@ -1,0 +1,26 @@
+// Main Variable
+$color-black: #000;
+$color-transparent: transparent;
+$color-white: #fff;
+
+$font-size-body: 24px;
+$full-height-percent: 100%;
+$full-height-vh: 100vh;
+$full-width-percent: 100%;
+$full-width-vh: 100vh;
+
+$linear-gradient-gray-to-black: linear-gradient(
+  to right,
+  #525252 0%,
+  #1b1e21 100%
+);
+
+$navbar-font-weight: 700;
+$navbar-height: 50px;
+$navbar-padding-wrapper-link: 14px 16px;
+
+// Particles
+$particles-full-height: calc(#{$full-height-percent} - #{$navbar-height});
+
+// Body
+$body-full-height: calc(#{$full-height-vh} - #{$navbar-height});

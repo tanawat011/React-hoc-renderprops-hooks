@@ -1,0 +1,14 @@
+.wrapper-body {
+  text-align: center;
+
+  .body {
+    align-items: center;
+    background-color: $color-transparent;
+    color: $color-white;
+    display: flex;
+    flex-direction: column;
+    font-size: $font-size-body;
+    height: $body-full-height;
+    justify-content: center;
+  }
+}

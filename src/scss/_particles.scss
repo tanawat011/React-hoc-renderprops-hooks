@@ -1,8 +1,8 @@
 .particles {
   // background: #1b1e21;
-  background-image: linear-gradient(to right, #525252 0%, #1b1e21 100%);
-  height: calc(100% - 50px);
+  background-image: $linear-gradient-gray-to-black;
+  height: $particles-full-height;
   position: absolute;
-  width: 100%;
+  width: $full-width-percent;
   z-index: -1;
 }

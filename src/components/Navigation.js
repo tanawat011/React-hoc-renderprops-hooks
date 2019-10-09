@@ -12,7 +12,7 @@ const Navagation = () => {
           <Link to="/about">About</Link>
         </li>
         <li className="dropdown">
-          <a href="." alt="..." className="dropbtn">
+          <a href="#" alt="..." className="dropbtn">
             All kind component
           </a>
           <div className="dropdown-content">
