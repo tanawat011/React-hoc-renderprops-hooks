@@ -11,15 +11,14 @@ const WrapperBody = styled.div`
 `;
 
 const AppBody = styled.div`
-  // background-image: linear-gradient(to right, #62bdfc 0%, #6574ff 100%);
+  align-items: center;
   background-color: transparent;
-  min-height: 100vh;
+  color: white;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  height: calc(100vh - 50px);
+  justify-content: center;
 `;
 
 const DefaultLayout = () => {
@@ -34,7 +33,7 @@ const DefaultLayout = () => {
         </header> */}
 
         <Navagation />
-            <Particles />
+        <Particles />
 
         <WrapperBody>
           <AppBody>

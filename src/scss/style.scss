@@ -19,13 +19,5 @@ code {
     monospace;
 }
 
-.particles {
-  // background: #1b1e21;
-  background-image: linear-gradient(to right, #525252 0%, #1b1e21 100%);
-  height: 100%;
-  position: absolute;
-  width: 100%;
-  z-index: -1;
-}
-
-@import './_navigation';
+@import './particles';
+@import './navigation';
